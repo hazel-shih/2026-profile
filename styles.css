@@ -2,6 +2,7 @@
   --ink: #202320;
   --paper: #f5f3ee;
   --peach: #f1df91;
+  --pale-yellow: #f5edbb;
   --sky: #d8d5cf;
   --blue: #8bb9de;
   --lime: #d6ff4c;
@@ -40,11 +41,11 @@ h2 { font-size: clamp(37px, 4.8vw, 78px); letter-spacing: -.075em; line-height: 
 
 .media-panel { align-self: center; overflow: hidden; position: relative; background: var(--sky); min-height: 380px; }
 .project--course { background: #fcfcfa; }
-.project--radar { background: #f5edbb; }
+.project--radar { background: var(--pale-yellow); }
 .project--ipas { background: #282d2a; color: #f6f6ef; }
 .project--ipas .project-copy > p:not(.eyebrow):not(.project-lead) { color: rgba(246, 246, 239, .7); }
 .project--ipas .media-panel { background: #171b18; }
-.project--cute { background: #e6d28a; }
+.project--cute { background: var(--pale-yellow); }
 .carousel { min-height: 480px; overflow: visible; margin-bottom: 62px; }
 .carousel-viewport { height: 100%; overflow: hidden; }
 .carousel-track { display: flex; height: 100%; transition: transform .45s cubic-bezier(.2,.8,.2,1); }
